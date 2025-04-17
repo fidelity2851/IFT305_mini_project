@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Website For IFT305 - Group 3</title>
+
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- Header Navbar -->
+    <header class="header_con shadow-sm sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="">
+                <a href="index.html">
+                    <img src="./assets/images/futo_logo.png" alt="" class="header_logo me-3">
+                </a>
+                <a href="index.html">
+                    <img src="./assets/images/ift_logo.png" alt="" class="header_logo">
+                </a>
+            </div>
+            <div class="col col-xl-8 d-none d-lg-flex justify-content-end align-items-center">
+                <a href="index.html" class="text-decoration-none">
+                    <p class="header_link">Home</p>
+                </a>
+                <a href="#image" class="text-decoration-none">
+                    <p class="header_link">Images</p>
+                </a>
+                <a href="#video" class="text-decoration-none">
+                    <p class="header_link">Videos</p>
+                </a>
+                <a href="#audio" class="text-decoration-none">
+                    <p class="header_link">Audio</p>
+                </a>
+                <a href="#contact" class="text-decoration-none">
+                    <p class="header_link">Contact</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Container -->
+    <section class="banner_con" style="background-image: url('./assets/images/banner1.jpg');">
+        <div class="container banner d-flex justify-content-center align-items-center">
+            <div class="col col-lg-9 banner_cont text-center p-4" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="banner_header">Our Multimedia Documentation Website</h1>
+                <p class="banner_text mb-4">Our site shows the documentation of images, videos, musics and graphics.</p>
+                <a href="#contact" class="">
+                    <button type="button" class="banner_btn">Contact Us</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Images Container -->
+    <div id="images" class="serv_con">
+        <div class="container">
+            <div class="col col-lg-8 text-center mx-auto">
+                <h3 class="serv_header">Image Gallery</h3>
+                <p class="serv_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas aut
+                    quod
+                    reprehenderit dolor doloremque alias.</p>
+            </div>
+            <div class="col d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+
+                <img src="./assets/images/img1.avif" alt="" class="gallery_img">
+
+
+                <img src="./assets/images/img2.avif" alt="" class="gallery_img">
+
+
+                <img src="./assets/images/img3.avif" alt="" class="gallery_img">
+
+
+                <img src="./assets/images/img4.avif" alt="" class="gallery_img">
+                <img src="./assets/images/img5.avif" alt="" class="gallery_img">
+                <img src="./assets/images/img6.avif" alt="" class="gallery_img">
+                <img src="./assets/images/img7.avif" alt="" class="gallery_img">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Videos Container -->
+    <div id="videos" class="serv_con">
+        <div class="container">
+            <div class="col col-lg-8 text-center mx-auto">
+                <h3 class="serv_header">Video Collections</h3>
+                <p class="serv_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas aut
+                    quod reprehenderit dolor doloremque alias.</p>
+            </div>
+            <div class="col row row-cols-3 justify-content-center g-3">
+
+                <video src="./assets/images/img1.avif" class="col video_img" controls></video>
+                <video src="./assets/images/img1.avif" class="col video_img" controls></video>
+                <video src="./assets/images/img1.avif" class="col video_img" controls></video>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Container -->
+    <div id="Audio" class="serv_con">
+        <div class="container">
+            <div class="col col-lg-8 text-center mx-auto">
+                <h3 class="serv_header">Audio Tracks</h3>
+                <p class="serv_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas aut
+                    quod reprehenderit dolor doloremque alias.</p>
+            </div>
+            <div class="col d-flex flex-wrap justify-content-start gap-3">
+                <audio src=""></audio>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Container -->
+    <div id="contact" class="cont_con">
+        <div class="container">
+            <div class="cont_header mb-4">Contact Us</div>
+            <div class="col d-lg-flex align-items-start">
+                <div class="col col-lg-5 cont_cont_con me-xl-5 mb-4 mb-lg-0" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="col d-flex align-items-start">
+                        <iconify-icon icon="mdi:address-marker-outline" class="cont_cont_icon"></iconify-icon>
+                        <div class="col ms-4">
+                            <p class="cont_cont_head">Address</p>
+                            <p class="cont_cont_text">Federal University of Technology, Owerri, Imo State, Nigeria</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col d-flex align-items-start">
+                        <iconify-icon icon="bytesize:telephone" class="cont_cont_icon"></iconify-icon>
+                        <div class="col ms-4">
+                            <p class="cont_cont_head">Telephone </p>
+                            <p class="cont_cont_text">+000 000 0000</p>
+                            <p class="cont_cont_text">+000 000 0000</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col d-flex align-items-start">
+                        <iconify-icon icon="simple-icons:gmail" class="cont_cont_icon"></iconify-icon>
+                        <div class="col ms-4">
+                            <p class="cont_cont_head">E-mails</p>
+                            <p class="cont_cont_text">example@ift305.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ms-lg-5">
+                    <div class="col mb-3">
+                        <label for="" class="cont_label">Fullname</label>
+                        <input type="text" class="cont_box" placeholder="Enter fullname">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="" class="cont_label">Email Address</label>
+                        <input type="text" class="cont_box" placeholder="Enter your email address">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="" class="cont_label">Message</label>
+                        <textarea class="cont_box" id="" cols="30" rows="10"
+                            placeholder="Type your message here..."></textarea>
+                    </div>
+                    <button type="button" class="cont_btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Container -->
+    <div class="footer_bottom_con">
+        <div class="container">
+            <p class="foot_head text-center">IFT 305 Mini Project - Group 3</p>
+            <p class="foot_text text-center"> &copy; Federal University of Technology, Owerri (FUTO) 2024. As Developed
+                by 300lv
+                students from the Department of Information Technology(IFT)</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
